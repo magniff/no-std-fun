@@ -7,5 +7,5 @@ name = "allocator"
 version = "0.1.0"
 
 [[package]]
-name = "no-std-fun"
+name = "initial_experiments"
 version = "0.1.0"

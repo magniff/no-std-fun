@@ -1,12 +1,5 @@
 [workspace]
-members = ["allocator"]
-
-[package]
-name = "no-std-fun"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
+members = ["allocator", "initial_experiments"]
 
 [profile.release]
 panic = "abort"
