@@ -3,9 +3,19 @@
 version = 4
 
 [[package]]
-name = "allocator"
+name = "common"
 version = "0.1.0"
 
 [[package]]
 name = "initial_experiments"
 version = "0.1.0"
+dependencies = [
+ "common",
+]
+
+[[package]]
+name = "trivial_allocator"
+version = "0.1.0"
+dependencies = [
+ "common",
+]

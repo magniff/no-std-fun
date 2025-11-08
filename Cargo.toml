@@ -1,5 +1,5 @@
 [workspace]
-members = ["allocator", "initial_experiments"]
+members = ["trivial_allocator", "initial_experiments", "common"]
 
 [profile.release]
 panic = "abort"
