@@ -1,5 +1,6 @@
 #[cfg(not(test))]
 #[panic_handler]
+#[allow(unused_variables)]
 pub fn panic_handler(panic_info: &core::panic::PanicInfo) -> ! {
     loop {}
 }
